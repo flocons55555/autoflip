@@ -1,38 +1,86 @@
-"""Collecte uniquement des flux JSON explicitement autorisés par leurs fournisseurs.
-Configure AUTOF LIP_FEED_URLS sans espace dans le nom : AUTOFLIP_FEED_URLS.
-Format attendu : {"listings":[{"id":"...", "title":"...", "price":3000, "resale_estimate":4200, "url":"...", "source":"..."}]}.
-Aucune extraction de Leboncoin ou La Centrale n'est incluse.
+"""AutoFlip : collecte modérée via le connecteur MCP public de Karoto.
+Source : https://karoto.fr/connecteur-ia
+Aucune annonce fictive n'est présentée comme réelle.
 """
-import json, os, urllib.request, pathlib, datetime
-OUT=pathlib.Path("data/listings.json")
-urls=[x.strip() for x in os.environ.get("AUTOFLIP_FEED_URLS","").split(",") if x.strip()]
-if not urls:
-    print("Aucun flux autorisé configuré; données de démonstration conservées.")
-    raise SystemExit(0)
-all_items={}
-for url in urls:
-    if not url.startswith("https://"):
-        print("Source ignorée (HTTPS obligatoire)")
-        continue
-    try:
-        req=urllib.request.Request(url,headers={"User-Agent":"AutoFlip/0.1 (authorized-feed-client)"})
-        with urllib.request.urlopen(req,timeout=20) as response:
-            payload=response.read(2_000_001)
-        if len(payload)>2_000_000: raise ValueError("Flux trop volumineux")
-        records=json.loads(payload).get("listings",[])
-        for a in records[:500]:
-            if not isinstance(a,dict): continue
-            price=float(a.get("price",0)); resale=float(a.get("resale_estimate",0))
-            if not 0<price<1_000_000 or not 0<resale<1_000_000: continue
-            if not a.get("title"): continue
-            item={k:a.get(k) for k in ("id","title","price","resale_estimate","url","source","year","mileage")}
-            item["price"],item["resale_estimate"]=price,resale
-            all_items[str(item.get("id") or item.get("url") or item["title"])]=item
-    except Exception as exc:
-        print("Flux indisponible:",type(exc).__name__,str(exc)[:120])
-if all_items:
-    OUT.parent.mkdir(parents=True,exist_ok=True)
-    OUT.write_text(json.dumps({"live":True,"updated_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"listings":list(all_items.values())},ensure_ascii=False,indent=2),encoding="utf-8")
-    print(len(all_items),"annonces enregistrées")
-else:
-    print("Aucune annonce valide; données précédentes conservées.")
+import asyncio, datetime, json, pathlib, re
+from urllib.parse import urlparse
+
+OUT = pathlib.Path("data/listings.json")
+
+def objects(v):
+    if isinstance(v, list):
+        for x in v: yield from objects(x)
+    elif isinstance(v, dict):
+        if any(k in v for k in ("price", "prix", "prix_eur", "asking_price")):
+            yield v
+        for k in ("listings", "annonces", "results", "items", "deals", "data"):
+            if k in v: yield from objects(v[k])
+
+def number(v):
+    if isinstance(v, (int, float)): return float(v)
+    if isinstance(v, str):
+        m = re.search(r"\d[\d\s.,]*", v.replace("\u202f", " "))
+        if m:
+            return float(re.sub(r"[^0-9]", "", m.group()).strip() or 0)
+    return 0.0
+
+def normalize(a):
+    price = number(next((a[k] for k in ("price","prix","prix_eur","asking_price") if k in a),0))
+    if not 100 <= price <= 500000: return None
+    title = next((str(a[k]) for k in ("title","titre","name","label") if a.get(k)), "")
+    if not title:
+        title = " ".join(str(a.get(k,"")) for k in ("make","model","year")).strip()
+    if not title: return None
+    url = next((str(a[k]) for k in ("url","link","listing_url","annonce_url") if a.get(k)), "")
+    if url and urlparse(url).scheme not in ("http","https"): url=""
+    valuation = number(next((a[k] for k in ("estimated_price","market_price","cote","valuation","fair_price","prix_marche") if k in a),0))
+    # Estimation indisponible : pas de profit inventé.
+    resale = valuation if valuation >= price else price
+    return {"id":str(a.get("id") or url or title+str(price)), "title":title, "price":price,
+            "resale_estimate":resale, "url":url, "source":"Karoto",
+            "year":a.get("year",a.get("annee")), "mileage":a.get("mileage",a.get("kilometrage")),
+            "image":a.get("image",a.get("image_url"))}
+
+async def main():
+    from mcp import ClientSession
+    from mcp.client.streamable_http import streamablehttp_client
+    async with streamablehttp_client("https://karoto.fr/mcp", timeout=25) as (read,write,_):
+        async with ClientSession(read,write) as session:
+            await session.initialize()
+            tools = await session.list_tools()
+            names = {t.name:t for t in tools.tools}
+            name = "best_deals" if "best_deals" in names else "search_listings"
+            if name not in names: raise RuntimeError("Outil Karoto indisponible")
+            schema = names[name].inputSchema or {}
+            props = schema.get("properties",{})
+            args = {}
+            for k in schema.get("required",[]):
+                if k in ("limit","page_size","per_page"): args[k]=15
+                elif k in ("country","pays"): args[k]="FR"
+                elif k in ("query","q"): args[k]="voiture"
+                elif k in ("max_price","prix_max"): args[k]=10000
+                else: raise RuntimeError("Paramètre requis inconnu : "+k)
+            if "limit" in props: args["limit"]=min(15,int(args.get("limit",15)))
+            result = await session.call_tool(name,args)
+            if result.isError: raise RuntimeError("Karoto a refusé la recherche")
+            payloads=[]
+            if result.structuredContent: payloads.append(result.structuredContent)
+            for c in result.content:
+                if getattr(c,"type",None)=="text":
+                    try: payloads.append(json.loads(c.text))
+                    except (ValueError,TypeError): pass
+            found={}
+            for payload in payloads:
+                for a in objects(payload):
+                    item=normalize(a)
+                    if item: found[item["id"]]=item
+            if not found:
+                print("Aucune annonce reconnue; démonstration conservée")
+                return
+            OUT.parent.mkdir(exist_ok=True)
+            OUT.write_text(json.dumps({"live":True,"updated_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                "attribution":"Source : Karoto — https://karoto.fr", "listings":list(found.values())[:30]},ensure_ascii=False,indent=2))
+            print(len(found),"annonces Karoto récupérées")
+
+if __name__=="__main__":
+    asyncio.run(main())
