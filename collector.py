@@ -17,7 +17,7 @@ def objects(v, depth=0):
     elif isinstance(v, list):
         for x in v: yield from objects(x, depth+1)
     elif isinstance(v, dict):
-        if any(k in v for k in ("price", "prix", "prix_eur", "asking_price")):
+        if any(k in v for k in ("price", "prix", "prix_eur", "asking_price", "price_eur")):
             yield v
         for x in v.values():
             if isinstance(x, (dict,list,str)):
@@ -32,7 +32,7 @@ def number(v):
     return 0.0
 
 def normalize(a):
-    price = number(next((a[k] for k in ("price","prix","prix_eur","asking_price") if k in a),0))
+    price = number(next((a[k] for k in ("price","prix","prix_eur","asking_price","price_eur") if k in a),0))
     if not 100 <= price <= 500000: return None
     title = next((str(a[k]) for k in ("title","titre","name","label") if a.get(k)), "")
     if not title:
@@ -40,13 +40,13 @@ def normalize(a):
     if not title: return None
     url = next((str(a[k]) for k in ("url","link","listing_url","annonce_url") if a.get(k)), "")
     if url and urlparse(url).scheme not in ("http","https"): url=""
-    valuation = number(next((a[k] for k in ("estimated_price","market_price","cote","valuation","fair_price","prix_marche") if k in a),0))
+    valuation = number(next((a[k] for k in ("estimated_price","market_price","cote","valuation","fair_price","prix_marche","karoto_estimate_eur") if k in a),0))
     # Estimation indisponible : pas de profit inventé.
     resale = valuation if valuation >= price else price
     return {"id":str(a.get("id") or url or title+str(price)), "title":title, "price":price,
             "resale_estimate":resale, "url":url, "source":"Karoto",
-            "year":a.get("year",a.get("annee")), "mileage":a.get("mileage",a.get("kilometrage")),
-            "image":a.get("image",a.get("image_url"))}
+            "year":a.get("year",a.get("annee")), "mileage":a.get("mileage",a.get("kilometrage",a.get("mileage_km"))),
+            "image":a.get("image",a.get("image_url",a.get("photo")))}
 
 async def main():
     from mcp import ClientSession
