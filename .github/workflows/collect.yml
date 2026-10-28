@@ -1,0 +1,28 @@
+name: Collecte AutoFlip
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collecter les flux autorisés
+        env:
+          AUTOFLIP_FEED_URLS: ${{ vars.AUTOFLIP_FEED_URLS }}
+        run: python collector.py
+      - name: Enregistrer les données modifiées
+        run: |
+          if ! git diff --quiet -- data/listings.json; then
+            git config user.name "autoflip-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/listings.json
+            git commit -m "Mise à jour des annonces autorisées"
+            git push
+          fi
