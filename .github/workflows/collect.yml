@@ -13,9 +13,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collecter les flux autorisés
-        env:
-          AUTOFLIP_FEED_URLS: ${{ vars.AUTOFLIP_FEED_URLS }}
+      - name: Installer le client MCP
+        run: python -m pip install 'mcp>=1.0,<2'
+      - name: Collecter les annonces Karoto
         run: python collector.py
       - name: Enregistrer les données modifiées
         run: |
