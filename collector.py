@@ -7,14 +7,21 @@ from urllib.parse import urlparse
 
 OUT = pathlib.Path("data/listings.json")
 
-def objects(v):
-    if isinstance(v, list):
-        for x in v: yield from objects(x)
+def objects(v, depth=0):
+    if depth > 12: return
+    if isinstance(v, str):
+        try:
+            yield from objects(json.loads(v), depth+1)
+        except (ValueError, TypeError):
+            return
+    elif isinstance(v, list):
+        for x in v: yield from objects(x, depth+1)
     elif isinstance(v, dict):
         if any(k in v for k in ("price", "prix", "prix_eur", "asking_price")):
             yield v
-        for k in ("listings", "annonces", "results", "items", "deals", "data"):
-            if k in v: yield from objects(v[k])
+        for x in v.values():
+            if isinstance(x, (dict,list,str)):
+                yield from objects(x, depth+1)
 
 def number(v):
     if isinstance(v, (int, float)): return float(v)
@@ -75,6 +82,12 @@ async def main():
                     item=normalize(a)
                     if item: found[item["id"]]=item
             if not found:
+                print("Diagnostic Karoto: outil =", name)
+                print("Diagnostic Karoto: contenu structuré =", type(result.structuredContent).__name__)
+                for i,c in enumerate(result.content[:3]):
+                    raw = getattr(c,"text","")
+                    print("Diagnostic Karoto: bloc", i, "type =", getattr(c,"type","inconnu"), "longueur =", len(raw))
+                    print("Diagnostic Karoto: aperçu =", raw[:900].replace("\\n"," "))
                 print("Aucune annonce reconnue; démonstration conservée")
                 return
             OUT.parent.mkdir(exist_ok=True)
