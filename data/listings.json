@@ -1,32 +1,172 @@
 {
-  "live": false,
+  "live": true,
+  "updated_at": "2026-10-28T17:45:15.541787+00:00",
+  "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
     {
-      "id": "demo-1",
-      "title": "Renault Clio IV 1.2 16V",
+      "id": "zx2gkx8nfwm7",
+      "title": "Bentley Continental W12 6.0 560",
+      "price": 33999.0,
+      "resale_estimate": 53850.0,
+      "url": "https://karoto.fr/annonce/bentley-continental-w12-6-0-560-2008-zx2gkx8nfwm7?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2008,
+      "mileage": 45000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/00/22/bentley-continental-gt-6-0l-w12-nur-45-000-km-schwarz_9702190063.jpg"
+    },
+    {
+      "id": "jf6r68zmhxdc",
+      "title": "Volkswagen Touareg V6 3.0 4Motion",
+      "price": 38950.0,
+      "resale_estimate": 48400.0,
+      "url": "https://karoto.fr/annonce/volkswagen-touareg-v6-3-0-4motion-2023-jf6r68zmhxdc?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2023,
+      "mileage": 41808,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/00/17/volkswagen-touareg-3-0tdi-366-ohne-anzahlung-navi-ahk-luft_9702187972.jpg"
+    },
+    {
+      "id": "1a35wvmxph12",
+      "title": "Audi Q4 e-tron 45 285",
+      "price": 44979.0,
+      "resale_estimate": 56650.0,
+      "url": "https://karoto.fr/annonce/audi-q4-e-tron-45-285-2026-1a35wvmxph12?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2026,
+      "mileage": 3268,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/01/02/audi-q4-e-tron-45-e-tron_9702205345.jpg"
+    },
+    {
+      "id": "0cwcyprf43my",
+      "title": "BMW iX1",
+      "price": 43930.0,
+      "resale_estimate": 49000.0,
+      "url": "https://karoto.fr/annonce/bmw-ix1-2025-0cwcyprf43my?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 13739,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/00/46/bmw-ix1-ix1-xdrive30_9702198018.jpg"
+    },
+    {
+      "id": "wyqsy43znjnd",
+      "title": "Volkswagen Multivan 2.0 TDI 150",
+      "price": 44444.0,
+      "resale_estimate": 52150.0,
+      "url": "https://karoto.fr/annonce/volkswagen-multivan-2-0-tdi-150-2025-wyqsy43znjnd?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 19800,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/00/40/volkswagen-multivan-2-0tdi-dsg-7-sitzer-led-el-klappe-3-z-klima-grau_9702195783.jpg"
+    },
+    {
+      "id": "k2bte39gmjtj",
+      "title": "DS DS 3 1.2 110",
+      "price": 6990.0,
+      "resale_estimate": 10350.0,
+      "url": "https://karoto.fr/annonce/ds-ds-3-1-2-110-2017-k2bte39gmjtj?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2017,
+      "mileage": 111300,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/06/45/citroen-ds3-ds-ds-3-ds3-gris_9702442189.jpg"
+    },
+    {
+      "id": "dkyfxv2c2i1s",
+      "title": "Audi Q5 2.0 TFSI 204",
+      "price": 48046.0,
+      "resale_estimate": 60500.0,
+      "url": "https://karoto.fr/annonce/audi-q5-2-0-tfsi-204-2026-dkyfxv2c2i1s?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2026,
+      "mileage": 5500,
+      "image": "https://img.leparking.fr/640x480/ext%2Fhttps%3A%2F%2Fimages.pkw.net%2Faudi-q5-1029685569-640x480_048e20b954.jpg"
+    },
+    {
+      "id": "fnsuapj2j6su",
+      "title": "Peugeot 308 1.2 THP 130 Allure",
+      "price": 4980.0,
+      "resale_estimate": 7700.0,
+      "url": "https://karoto.fr/annonce/peugeot-308-1-2-thp-130-allure-2017-fnsuapj2j6su?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2017,
+      "mileage": 129500,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/02/40/peugeot-308-peugeot-308-130ch-s-s-bvm6-allure-ouverture-sans-cle-camera-360-demarrage-sans-cle_9702260277.jpg"
+    },
+    {
+      "id": "ffa52ypvpg0u",
+      "title": "Peugeot 508 2.0 HDi 150 Active",
+      "price": 6990.0,
+      "resale_estimate": 9000.0,
+      "url": "https://karoto.fr/annonce/peugeot-508-2-0-hdi-150-active-2017-ffa52ypvpg0u?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2017,
+      "mileage": 162592,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/07/04/peugeot-508-peugeot-508-2-0-bluehdi-150ch-fap-active-bleu_9702449887.jpg"
+    },
+    {
+      "id": "tmbip69afg86",
+      "title": "Peugeot 508 1.5 HDi 130 Allure",
+      "price": 7500.0,
+      "resale_estimate": 11100.0,
+      "url": "https://karoto.fr/annonce/peugeot-508-1-5-hdi-130-allure-2020-tmbip69afg86?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2020,
+      "mileage": 200000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/07/04/peugeot-508-peugeot-508-1-5hdi-130cv-allure-boite-auto-2020-a-7500euro-gris_9702449994.jpg"
+    },
+    {
+      "id": "2009haw99x0i",
+      "title": "Peugeot 208 1.6 THP 208 Style",
+      "price": 4990.0,
+      "resale_estimate": 7200.0,
+      "url": "https://karoto.fr/annonce/peugeot-208-1-6-thp-208-style-2018-2009haw99x0i?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2018,
+      "mileage": 142500,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/07/02/peugeot-208-peugeot-208-blue-hdi-75cv-style-carplay-regulateur-de-vitesse-blanc_9702448812.jpg"
+    },
+    {
+      "id": "hv6x8fxk11ud",
+      "title": "Peugeot 208 1.2 THP 208 Urban Soul",
+      "price": 4490.0,
+      "resale_estimate": 6750.0,
+      "url": "https://karoto.fr/annonce/peugeot-208-1-2-thp-208-urban-soul-2016-hv6x8fxk11ud?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2016,
+      "mileage": 124000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/01/01/peugeot-208-peugeot-208-1-2-puretech-urban-soul-blanc_9702203812.jpg"
+    },
+    {
+      "id": "57r2ns6e409n",
+      "title": "Nissan Juke 1.5 dCi 110 Ministry OF Sound",
+      "price": 3999.0,
+      "resale_estimate": 5150.0,
+      "url": "https://karoto.fr/annonce/nissan-juke-1-5-dci-110-ministry-of-sound-2011-57r2ns6e409n?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2011,
+      "mileage": 200300,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/07/02/nissan-juke-nissan-juke-1-5-dci-110-ministry-of-sound-blanc_9702448654.jpg"
+    },
+    {
+      "id": "wbahtm64yzxx",
+      "title": "Renault Kadjar 1.3 TCe 140 Intens",
+      "price": 5990.0,
+      "resale_estimate": 8550.0,
+      "url": "https://karoto.fr/annonce/renault-kadjar-1-3-tce-140-intens-2018-wbahtm64yzxx?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
+      "year": 2018,
+      "mileage": 181800,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/03/26/renault-kadjar-renault-kadjar-tce-140-fap-intens_9702291103.jpg"
+    },
+    {
+      "id": "p0vvnmppz1rh",
+      "title": "Renault Clio 1.5 dCi 75 Expression",
+      "price": 2790.0,
+      "resale_estimate": 4350.0,
+      "url": "https://karoto.fr/annonce/renault-clio-1-5-dci-75-expression-2014-p0vvnmppz1rh?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "source": "Karoto",
       "year": 2014,
-      "mileage": 150000,
-      "price": 3000,
-      "resale_estimate": 4200,
-      "source": "Démonstration"
-    },
-    {
-      "id": "demo-2",
-      "title": "Peugeot 208 1.2 VTi",
-      "year": 2015,
-      "mileage": 130000,
-      "price": 3400,
-      "resale_estimate": 4500,
-      "source": "Démonstration"
-    },
-    {
-      "id": "demo-3",
-      "title": "Citroën C3 1.4 HDi",
-      "year": 2013,
-      "mileage": 165000,
-      "price": 2200,
-      "resale_estimate": 3300,
-      "source": "Démonstration"
+      "mileage": 230000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/03/26/renault-clio-renault-clio-1-5-dci-75-expression-clim_9702291308.jpg"
     }
   ]
 }
