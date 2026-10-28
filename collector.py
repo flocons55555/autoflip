@@ -40,11 +40,16 @@ def normalize(a):
     if not title: return None
     url = next((str(a[k]) for k in ("url","link","listing_url","annonce_url") if a.get(k)), "")
     if url and urlparse(url).scheme not in ("http","https"): url=""
+    original_url = next((str(a[k]) for k in ("original_url","source_url","external_url","seller_url","url_origine","lien_origine") if a.get(k)), "")
+    if original_url:
+        parsed = urlparse(original_url)
+        if parsed.scheme not in ("http","https") or not parsed.netloc or parsed.hostname in ("karoto.fr","www.karoto.fr"):
+            original_url = ""
     valuation = number(next((a[k] for k in ("estimated_price","market_price","cote","valuation","fair_price","prix_marche","karoto_estimate_eur") if k in a),0))
     # Estimation indisponible : pas de profit inventé.
     resale = valuation if valuation >= price else price
     return {"id":str(a.get("id") or url or title+str(price)), "title":title, "price":price,
-            "resale_estimate":resale, "url":url, "source":"Karoto",
+            "resale_estimate":resale, "url":url, "original_url":original_url, "source":"Karoto",
             "year":a.get("year",a.get("annee")), "mileage":a.get("mileage",a.get("kilometrage",a.get("mileage_km"))),
             "image":a.get("image",a.get("image_url",a.get("photo")))}
 
