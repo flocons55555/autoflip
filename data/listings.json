@@ -1,6 +1,6 @@
 {
   "live": true,
-  "updated_at": "2026-10-28T17:54:28.379595+00:00",
+  "updated_at": "2026-10-28T21:52:03.242137+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
     {
@@ -88,18 +88,6 @@
       "image": "https://img.leparking.fr/640x480/ext%2Fhttps%3A%2F%2Fimages.pkw.net%2Faudi-q5-1029685569-640x480_048e20b954.jpg"
     },
     {
-      "id": "fnsuapj2j6su",
-      "title": "Peugeot 308 1.2 THP 130 Allure",
-      "price": 4980.0,
-      "resale_estimate": 7700.0,
-      "url": "https://karoto.fr/annonce/peugeot-308-1-2-thp-130-allure-2017-fnsuapj2j6su?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2017,
-      "mileage": 129500,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/02/40/peugeot-308-peugeot-308-130ch-s-s-bvm6-allure-ouverture-sans-cle-camera-360-demarrage-sans-cle_9702260277.jpg"
-    },
-    {
       "id": "ffa52ypvpg0u",
       "title": "Peugeot 508 2.0 HDi 150 Active",
       "price": 6990.0,
@@ -182,6 +170,18 @@
       "year": 2014,
       "mileage": 230000,
       "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/03/26/renault-clio-renault-clio-1-5-dci-75-expression-clim_9702291308.jpg"
+    },
+    {
+      "id": "gwkf344gfhie",
+      "title": "Renault Scénic 1.5 dCi 110 Limited",
+      "price": 4990.0,
+      "resale_estimate": 7100.0,
+      "url": "https://karoto.fr/annonce/renault-scenic-1-5-dci-110-limited-2016-gwkf344gfhie?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2016,
+      "mileage": 187013,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/28/03/58/renault-scenic-renault-scenic-1-5-dci-110ch-energy-limited-euro6-2015-gris_9702318740.jpg"
     }
   ]
 }
