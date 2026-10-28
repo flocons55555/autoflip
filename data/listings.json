@@ -1,0 +1,32 @@
+{
+  "live": false,
+  "listings": [
+    {
+      "id": "demo-1",
+      "title": "Renault Clio IV 1.2 16V",
+      "year": 2014,
+      "mileage": 150000,
+      "price": 3000,
+      "resale_estimate": 4200,
+      "source": "Démonstration"
+    },
+    {
+      "id": "demo-2",
+      "title": "Peugeot 208 1.2 VTi",
+      "year": 2015,
+      "mileage": 130000,
+      "price": 3400,
+      "resale_estimate": 4500,
+      "source": "Démonstration"
+    },
+    {
+      "id": "demo-3",
+      "title": "Citroën C3 1.4 HDi",
+      "year": 2013,
+      "mileage": 165000,
+      "price": 2200,
+      "resale_estimate": 3300,
+      "source": "Démonstration"
+    }
+  ]
+}
