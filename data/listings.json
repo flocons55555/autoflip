@@ -1,6 +1,6 @@
 {
   "live": true,
-  "updated_at": "2026-10-29T15:28:41.407610+00:00",
+  "updated_at": "2026-10-29T20:30:37.710147+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
     {
@@ -14,6 +14,54 @@
       "year": 2023,
       "mileage": 81108,
       "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/02/13/bmw-x3-xdrive20i-m-sport_9703221958.jpg"
+    },
+    {
+      "id": "kg4hmcphm17i",
+      "title": "Hyundai Kona 1.6 T-GDi 138",
+      "price": 24900.0,
+      "resale_estimate": 30000.0,
+      "url": "https://karoto.fr/annonce/hyundai-kona-1-6-t-gdi-138-2026-kg4hmcphm17i?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2026,
+      "mileage": 7190,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/09/17/hyundai-kona-kona-sx2-my26-1-6-t-gdi-dct-select-funktion-weis_9703503991.jpg"
+    },
+    {
+      "id": "rycp5fugha06",
+      "title": "Nissan Qashqai 1.3 158 N Connecta",
+      "price": 24970.0,
+      "resale_estimate": 29500.0,
+      "url": "https://karoto.fr/annonce/nissan-qashqai-1-3-158-n-connecta-2025-rycp5fugha06?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 7803,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/12/49/nissan-qashqai-nissan-qashqai-n-connecta-360-carplay-kamera-navi-dab-grau_9703653525.jpg"
+    },
+    {
+      "id": "2x7b8kcdt7r2",
+      "title": "Volkswagen T-Roc 1.5 TSI 110 Life",
+      "price": 24750.0,
+      "resale_estimate": 31450.0,
+      "url": "https://karoto.fr/annonce/volkswagen-t-roc-1-5-tsi-110-life-2025-2x7b8kcdt7r2?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 6033,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/10/49/volkswagen-t-roc-life-1-5-tsi-dsg-led-navi-app-rfk-shz-2xpd-blau_9703588913.jpg"
+    },
+    {
+      "id": "70a6btcyx9n0",
+      "title": "Volkswagen T-Cross 1.5 TSI 150 Cross",
+      "price": 24160.0,
+      "resale_estimate": 27450.0,
+      "url": "https://karoto.fr/annonce/volkswagen-t-cross-1-5-tsi-150-cross-2025-70a6btcyx9n0?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 5000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/01/53/volkswagen-t-cross-life-tsi-dsg-carplay-kamera-acc-led-shz-blau_9703206093.jpg"
     },
     {
       "id": "9bhebu0riy1g",
@@ -134,54 +182,6 @@
       "year": 2017,
       "mileage": 52506,
       "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/02/17/mercedes-classe-c-coupe-mercedes-classe-c-coupe-200-bva_9703224171.jpg"
-    },
-    {
-      "id": "g34u1yc7f6df",
-      "title": "Mercedes-Benz Classe C C 43 AMG 3.0 367 4Matic",
-      "price": 27900.0,
-      "resale_estimate": 36600.0,
-      "url": "https://karoto.fr/annonce/mercedes-benz-classe-c-c-43-amg-3-0-367-4matic-2016-g34u1yc7f6df?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2016,
-      "mileage": 82993,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/03/06/mercedes-classe-c-43-amg-9g-tronic-4matic_9703252539.jpg"
-    },
-    {
-      "id": "5p6yp4xhiy16",
-      "title": "Mercedes-Benz Classe C C 200 1.8 184",
-      "price": 10499.0,
-      "resale_estimate": 17200.0,
-      "url": "https://karoto.fr/annonce/mercedes-benz-classe-c-c-200-1-8-184-2011-5p6yp4xhiy16?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2011,
-      "mileage": 101486,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/03/05/mercedes-classe-c-200_9703251705.jpg"
-    },
-    {
-      "id": "vadj131gxdnh",
-      "title": "Mercedes-Benz Classe C C 200 1.8 184 Avantgarde Executive",
-      "price": 10990.0,
-      "resale_estimate": 17800.0,
-      "url": "https://karoto.fr/annonce/mercedes-benz-classe-c-c-200-1-8-184-avantgarde-executive-2011-vadj131gxdnh?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2011,
-      "mileage": 94360,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/03/06/mercedes-classe-c-200-avantgarde-executive-a_9703251940.jpg"
-    },
-    {
-      "id": "0x3vjc7i87fy",
-      "title": "Mercedes-Benz Classe C C 200 2.1 CDI 136",
-      "price": 11250.0,
-      "resale_estimate": 16950.0,
-      "url": "https://karoto.fr/annonce/mercedes-benz-classe-c-c-200-2-1-cdi-136-2011-0x3vjc7i87fy?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2011,
-      "mileage": 84400,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/29/03/06/mercedes-classe-c-200-cdi-bva_9703252246.jpg"
     }
   ]
 }
