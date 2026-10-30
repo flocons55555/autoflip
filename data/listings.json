@@ -1,20 +1,8 @@
 {
   "live": true,
-  "updated_at": "2026-10-30T06:55:38.829923+00:00",
+  "updated_at": "2026-10-30T13:57:12.550838+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
-    {
-      "id": "azw4nh870x9x",
-      "title": "Ford Focus ST 2.3 EcoBoost 280",
-      "price": 20950.0,
-      "resale_estimate": 26450.0,
-      "url": "https://karoto.fr/annonce/ford-focus-st-2-3-ecoboost-280-2019-azw4nh870x9x?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2019,
-      "mileage": 66000,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/10/ford-focus-st-2-3-ecoboost-280-bvm_9703963752.jpg"
-    },
     {
       "id": "xm8amfncub85",
       "title": "Ford Focus ST 2.3 EcoBoost 280",
@@ -52,16 +40,16 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/03/volvo-xc40-t3-163-ch-bva_9703960043.jpg"
     },
     {
-      "id": "1xbn6ibqfzg7",
-      "title": "Volkswagen Tiguan 2.0 TDI 150 Business",
+      "id": "uwaysynnpc5m",
+      "title": "Volkswagen Tiguan 2.0 TDI",
       "price": 22990.0,
-      "resale_estimate": 28050.0,
-      "url": "https://karoto.fr/annonce/volkswagen-tiguan-2-0-tdi-150-business-2022-1xbn6ibqfzg7?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "resale_estimate": 31100.0,
+      "url": "https://karoto.fr/annonce/volkswagen-tiguan-2-0-tdi-2022-uwaysynnpc5m?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
       "year": 2022,
       "mileage": 69250,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/04/45/volkswagen-tiguan-volkswagen-tiguan-2-0-16v-tdi-bluemotion-150-bv-dsg-7-2016-life-business-phase-2-bleu_9704104184.jpg"
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/03/03/volkswagen-tiguan-2-0-16v-tdi-bluemotion_9704028206.jpg"
     },
     {
       "id": "7gpfgvk4x9ht",
@@ -74,30 +62,6 @@
       "year": 2019,
       "mileage": 78480,
       "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/03/volvo-xc40-163-ch-bva_9703959937.jpg"
-    },
-    {
-      "id": "qdycebjgxshe",
-      "title": "Volvo XC40 T3 1.5 163",
-      "price": 22999.0,
-      "resale_estimate": 26950.0,
-      "url": "https://karoto.fr/annonce/volvo-xc40-t3-1-5-163-2021-qdycebjgxshe?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2021,
-      "mileage": 75000,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/03/volvo-xc40-t3-163-ch-bva_9703960008.jpg"
-    },
-    {
-      "id": "6nuueyaqx7qn",
-      "title": "Volvo XC40 163",
-      "price": 22500.0,
-      "resale_estimate": 26450.0,
-      "url": "https://karoto.fr/annonce/volvo-xc40-163-2021-6nuueyaqx7qn?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2021,
-      "mileage": 81053,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/03/volvo-xc40-163-ch-bva_9703959980.jpg"
     },
     {
       "id": "p6vzhe51supz",
@@ -136,30 +100,6 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/10/ford-focus-st-2-3-ecoboost-280-bva_9703963799.jpg"
     },
     {
-      "id": "5e902e4xym13",
-      "title": "Ford Focus ST 2.3 EcoBoost 280",
-      "price": 22850.0,
-      "resale_estimate": 27750.0,
-      "url": "https://karoto.fr/annonce/ford-focus-st-2-3-ecoboost-280-2021-5e902e4xym13?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2021,
-      "mileage": 74889,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/09/ford-focus-st-2-3-ecoboost-280-bva_9703962937.jpg"
-    },
-    {
-      "id": "2ba2cnpfq8b5",
-      "title": "Ford Focus ST 2.3 EcoBoost 280",
-      "price": 20800.0,
-      "resale_estimate": 25550.0,
-      "url": "https://karoto.fr/annonce/ford-focus-st-2-3-ecoboost-280-2020-2ba2cnpfq8b5?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2020,
-      "mileage": 76000,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/03/ford-focus-st-2-3-ecoboost-280-bvm_9703959455.jpg"
-    },
-    {
       "id": "kumfthahisk2",
       "title": "Volkswagen Caddy 2.0 TDI 122 Business",
       "price": 21990.0,
@@ -182,6 +122,66 @@
       "year": 2022,
       "mileage": 2616,
       "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/55/toyota-yaris-116h-design-5p-my22-marron_9703990608.jpg"
+    },
+    {
+      "id": "0z8tni42c50y",
+      "title": "Citroën C3 Aircross 113 Confort",
+      "price": 19802.0,
+      "resale_estimate": 23500.0,
+      "url": "https://karoto.fr/annonce/citroen-c3-aircross-113-confort-2025-0z8tni42c50y?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 4321,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/00/50/citroen-c3-aircross-citroen-c3-e-c3-aircross-113-ch-autonomie-confort-you-noir_9703953472.jpg"
+    },
+    {
+      "id": "f5bn5hwyicyt",
+      "title": "Volkswagen Arteon 2.0 TDI 200 4Motion",
+      "price": 21900.0,
+      "resale_estimate": 25050.0,
+      "url": "https://karoto.fr/annonce/volkswagen-arteon-2-0-tdi-200-4motion-2021-f5bn5hwyicyt?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2021,
+      "mileage": 124000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/03/11/volkswagen-arteon-2-0-tdi-200-bva_9704033869.jpg"
+    },
+    {
+      "id": "d4y7nqdqwsn3",
+      "title": "DS DS 4 1.2 PureTech 130 Bastille",
+      "price": 18990.0,
+      "resale_estimate": 22350.0,
+      "url": "https://karoto.fr/annonce/ds-ds-4-1-2-puretech-130-bastille-2023-d4y7nqdqwsn3?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2023,
+      "mileage": 15000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/01/07/citroen-ds4-puretech-130ch-bastille-automatique-rouge_9703962202.jpg"
+    },
+    {
+      "id": "6u6dcat8hu2b",
+      "title": "Mini Countryman John Cooper Works 2.0 231 ALL4",
+      "price": 19900.0,
+      "resale_estimate": 25800.0,
+      "url": "https://karoto.fr/annonce/mini-countryman-john-cooper-works-2-0-231-all4-2019-6u6dcat8hu2b?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2019,
+      "mileage": 47428,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/03/17/mini-countryman-231-ch-bva_9704037570.jpg"
+    },
+    {
+      "id": "344pd2v4yak4",
+      "title": "Renault Clio E-Tech 1.6 145",
+      "price": 19390.0,
+      "resale_estimate": 24250.0,
+      "url": "https://karoto.fr/annonce/renault-clio-e-tech-1-6-145-2026-344pd2v4yak4?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2026,
+      "mileage": 9266,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/10/30/02/30/renault-clio-clio-e-tech-full-hybrid-145-ch-gsr2-gris_9704009790.jpg"
     }
   ]
 }
