@@ -1,6 +1,6 @@
 {
   "live": true,
-  "updated_at": "2026-11-03T08:27:15.334149+00:00",
+  "updated_at": "2026-11-03T16:28:30.343139+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
     {
@@ -88,18 +88,6 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/00/19/bmw-serie-1_9706496345.jpg"
     },
     {
-      "id": "12b0gqk6t63k",
-      "title": "BMW Série 2 218i 1.5 136",
-      "price": 23200.0,
-      "resale_estimate": 28950.0,
-      "url": "https://karoto.fr/annonce/bmw-serie-2-218i-1-5-136-2023-12b0gqk6t63k?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2023,
-      "mileage": 30470,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/05/02/bmw-serie-2-active-tourer-active-tourer-218i-136-ch-dkg7-bleu_9706648331.jpg"
-    },
-    {
       "id": "qmpcwnk6es9f",
       "title": "Cupra Leon 2.0 TSI",
       "price": 23290.0,
@@ -112,18 +100,6 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/00/52/cupra-leon-cupra-leon-2-0-tsi-190-ch-dsg7-acc-predictif-digital-cockpit-navigation-12-sieges-chauffants-noir_9706506508.jpg"
     },
     {
-      "id": "pedic9rzvi5c",
-      "title": "Cupra Formentor 1.4 150",
-      "price": 22490.0,
-      "resale_estimate": 26650.0,
-      "url": "https://karoto.fr/annonce/cupra-formentor-1-4-150-2024-pedic9rzvi5c?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2024,
-      "mileage": 52000,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/05/27/cupra-formentor-cupra-formentor-1-4-e-hybrid-204ch-bv-dsg-6-finition-v-18741-67ht-garantie-constructeur-08-2028_9706667736.jpg"
-    },
-    {
       "id": "g74rr7j0pe2c",
       "title": "Peugeot 2008 1.2 110",
       "price": 21399.0,
@@ -134,30 +110,6 @@
       "year": 2026,
       "mileage": 10,
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/01/03/peugeot-2008-gris_9706511043.jpg"
-    },
-    {
-      "id": "at3cxi48jb0e",
-      "title": "Renault Symbioz E-Tech 1.8 160 Evolution",
-      "price": 22761.0,
-      "resale_estimate": 25650.0,
-      "url": "https://karoto.fr/annonce/renault-symbioz-e-tech-1-8-160-evolution-2025-at3cxi48jb0e?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2025,
-      "mileage": 38120,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/04/34/renault-symbioz-symbioz-e-tech-full-hybrid-160-ch_9706636691.jpg"
-    },
-    {
-      "id": "avffv0pmezmm",
-      "title": "Toyota Yaris Cross 1.5 116 Dynamic",
-      "price": 21890.0,
-      "resale_estimate": 25800.0,
-      "url": "https://karoto.fr/annonce/toyota-yaris-cross-1-5-116-dynamic-2025-avffv0pmezmm?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2025,
-      "mileage": 14398,
-      "image": "https://img.leparking.fr/640x480/ext%2Fhttps%3A%2F%2Fused-car-publisher.toyota-europe.com%2Fimages%2F526e9200-8bf5-48f1-b8a2-c5062b70488e_5d64ff7c82b236ff394ed33096d310c4.JPEG"
     },
     {
       "id": "47u7a7jdva1i",
@@ -182,6 +134,54 @@
       "year": 2022,
       "mileage": 37000,
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/03/01/volkswagen-golf-viii-gte-1-4-ehybrid-245-ch-dsg-full-b_9706568724.jpg"
+    },
+    {
+      "id": "0ac4k66veai5",
+      "title": "Volkswagen Golf 1.0 TSI 110 Life",
+      "price": 20489.0,
+      "resale_estimate": 23750.0,
+      "url": "https://karoto.fr/annonce/volkswagen-golf-1-0-tsi-110-life-2024-0ac4k66veai5?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2024,
+      "mileage": 46870,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/00/45/volkswagen-golf-golf-1-0-life-et081etsid7a_9706504183.jpg"
+    },
+    {
+      "id": "eu571cguhtjv",
+      "title": "Volkswagen Polo 1.0 Style",
+      "price": 20934.0,
+      "resale_estimate": 24000.0,
+      "url": "https://karoto.fr/annonce/volkswagen-polo-1-0-style-2026-eu571cguhtjv?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2026,
+      "mileage": 20665,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/00/45/volkswagen-polo-polo-1-0-styleet070-tsid7a_9706504193.jpg"
+    },
+    {
+      "id": "21s8sphci192",
+      "title": "Volkswagen Golf 1.4 eTSI 204 Style",
+      "price": 20999.0,
+      "resale_estimate": 28500.0,
+      "url": "https://karoto.fr/annonce/volkswagen-golf-1-4-etsi-204-style-2025-21s8sphci192?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 50043,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/01/14/volkswagen-golf-style-blanc_9706515149.jpg"
+    },
+    {
+      "id": "20z1htta2en3",
+      "title": "BMW Série 3 320d 2.0 190",
+      "price": 20999.0,
+      "resale_estimate": 27450.0,
+      "url": "https://karoto.fr/annonce/bmw-serie-3-320d-2-0-190-2019-20z1htta2en3?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2019,
+      "mileage": 70000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/03/04/01/bmw-serie-3-320d-bva_9706613525.jpg"
     }
   ]
 }
