@@ -1,20 +1,8 @@
 {
   "live": true,
-  "updated_at": "2026-11-04T23:27:57.206624+00:00",
+  "updated_at": "2026-11-05T03:40:40.763282+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
-    {
-      "id": "qirb71gtx07m",
-      "title": "BMW Série 1 116i 2.0 122",
-      "price": 4200.0,
-      "resale_estimate": 6900.0,
-      "url": "https://karoto.fr/annonce/bmw-serie-1-116i-2-0-122-2010-qirb71gtx07m?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2010,
-      "mileage": 174000,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/04/08/44/bmw-1er-1er-5-turer-116i-automatik_9707565341.jpg"
-    },
     {
       "id": "xyvk8teacq8x",
       "title": "Ford Fiesta",
@@ -43,7 +31,7 @@
       "id": "647702ih8wbz",
       "title": "BMW X1 18d 2.0 150 X-Line sDrive",
       "price": 36900.0,
-      "resale_estimate": 47200.0,
+      "resale_estimate": 47400.0,
       "url": "https://karoto.fr/annonce/bmw-x1-18d-2-0-150-x-line-sdrive-2026-647702ih8wbz?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -139,7 +127,7 @@
       "id": "qjga3ykk9njz",
       "title": "Audi A5 2.0 TDI 204",
       "price": 38999.0,
-      "resale_estimate": 50000.0,
+      "resale_estimate": 49900.0,
       "url": "https://karoto.fr/annonce/audi-a5-2-0-tdi-204-2026-qjga3ykk9njz?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -148,22 +136,10 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/04/12/40/audi-a5-avant-avant-tdi-s-line-weis_9707946619.jpg"
     },
     {
-      "id": "btsxhxyrufis",
-      "title": "Audi A5 2.0 TDI 204",
-      "price": 36599.0,
-      "resale_estimate": 46400.0,
-      "url": "https://karoto.fr/annonce/audi-a5-2-0-tdi-204-2025-btsxhxyrufis?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2025,
-      "mileage": 11500,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/04/12/37/audi-a5-avant-avant-tdi-s-line-grau_9707945107.jpg"
-    },
-    {
       "id": "2ey25pm9ravf",
       "title": "Audi Q3 35 TFSI 1.5 150",
       "price": 37960.0,
-      "resale_estimate": 47700.0,
+      "resale_estimate": 47450.0,
       "url": "https://karoto.fr/annonce/audi-q3-35-tfsi-1-5-150-2026-2ey25pm9ravf?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -172,16 +148,40 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/04/17/31/audi-q3-advanced-35-tfsi-s-tr-nav-led-kam-acc-pbox-19-schwarz_9708112084.jpg"
     },
     {
-      "id": "ceyd049vnb3d",
-      "title": "Audi Q3 2.0 TDI 150",
+      "id": "fs0vy5v7i7pp",
+      "title": "Audi Q3 35 TDI 2.0 TDI 150",
       "price": 38659.0,
-      "resale_estimate": 48650.0,
-      "url": "https://karoto.fr/annonce/audi-q3-2-0-tdi-150-2026-ceyd049vnb3d?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "resale_estimate": 48450.0,
+      "url": "https://karoto.fr/annonce/audi-q3-35-tdi-2-0-tdi-150-2026-fs0vy5v7i7pp?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
       "year": 2026,
       "mileage": 5412,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/04/12/01/audi-q3-tdi-110-kw-s-tronic_9707904063.jpg"
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/04/10/06/audi-q3-suv-35-tdi-s-tronic-advanced-virtual-led-acc-schwarz_9707635094.jpg"
+    },
+    {
+      "id": "j71i7sxftazc",
+      "title": "Cupra Terramar VZ 1.5 272",
+      "price": 37890.0,
+      "resale_estimate": 46000.0,
+      "url": "https://karoto.fr/annonce/cupra-terramar-vz-1-5-272-2026-j71i7sxftazc?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2026,
+      "mileage": 1048,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/04/20/04/cupra-terramar-vz-2-0tsi-4drive-dsg-ahk-pano-hud-acc-2-weis_9708165256.jpg"
+    },
+    {
+      "id": "bk7747nz2mtf",
+      "title": "Cupra Terramar VZ 1.5 272",
+      "price": 39500.0,
+      "resale_estimate": 46450.0,
+      "url": "https://karoto.fr/annonce/cupra-terramar-vz-1-5-272-2025-bk7747nz2mtf?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 9500,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/04/17/31/cupra-terramar-1-5-e-hybrid-vz-ahk-grau_9708112046.jpg"
     }
   ]
 }
