@@ -1,6 +1,6 @@
 {
   "live": true,
-  "updated_at": "2026-11-05T20:13:29.309051+00:00",
+  "updated_at": "2026-11-06T01:04:25.216811+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
     {
@@ -88,18 +88,6 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/05/01/02/dacia-duster-dacia-duster-sl-black-touch-4x2-16v-tce-noir_9708249726.jpg"
     },
     {
-      "id": "m14prgka227i",
-      "title": "Peugeot 208 1.4 THP 208 Active",
-      "price": 4500.0,
-      "resale_estimate": 6200.0,
-      "url": "https://karoto.fr/annonce/peugeot-208-1-4-thp-208-active-2013-m14prgka227i?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2013,
-      "mileage": 173800,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/05/02/42/peugeot-208-peugeot-208-1-4-hdi-fap-active-3p_9708313271.jpg"
-    },
-    {
       "id": "s61ib8nhjga0",
       "title": "Peugeot 208 1.5 HDi 100 Active Business",
       "price": 7190.0,
@@ -182,6 +170,18 @@
       "year": 2011,
       "mileage": 218300,
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/05/04/20/renault-megane-societe-renault-megane-iii-estate-1-5-dci-110-cv-2-places-societe-2011-gris_9708390767.jpg"
+    },
+    {
+      "id": "yh8mign43ij0",
+      "title": "Renault Mégane 1.5 dCi 110 Business",
+      "price": 6000.0,
+      "resale_estimate": 7750.0,
+      "url": "https://karoto.fr/annonce/renault-megane-1-5-dci-110-business-2018-yh8mign43ij0?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2018,
+      "mileage": 229000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/05/02/57/renault-megane-business-noir_9708321039.jpg"
     }
   ]
 }
