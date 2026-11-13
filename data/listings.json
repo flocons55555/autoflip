@@ -1,8 +1,68 @@
 {
   "live": true,
-  "updated_at": "2026-11-13T17:03:44.874711+00:00",
+  "updated_at": "2026-11-13T22:47:02.858643+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
+    {
+      "id": "mq05w2qxunnb",
+      "title": "Audi A1 25 TFSI 1.0 TFSI 95",
+      "price": 20665.0,
+      "resale_estimate": 25100.0,
+      "url": "https://karoto.fr/annonce/audi-a1-25-tfsi-1-0-tfsi-95-2026-mq05w2qxunnb?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2026,
+      "mileage": 18573,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/01/17/audi-a1-25-tfsi-s-tronic_9714005629.jpg"
+    },
+    {
+      "id": "q3ue9hhahgt9",
+      "title": "BMW X1 18i 1.5 136 Edition Avantage sDrive",
+      "price": 20500.0,
+      "resale_estimate": 25750.0,
+      "url": "https://karoto.fr/annonce/bmw-x1-18i-1-5-136-edition-avantage-sdrive-2021-q3ue9hhahgt9?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2021,
+      "mileage": 23000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/04/51/bmw-x1-bmw-x1-sdrive-18i-advantage-automatik23000km-19-weis_9714171845.jpg"
+    },
+    {
+      "id": "8xjhhbpd61dw",
+      "title": "Volkswagen Polo GTI 2.0 TSI 207",
+      "price": 20980.0,
+      "resale_estimate": 26400.0,
+      "url": "https://karoto.fr/annonce/volkswagen-polo-gti-2-0-tsi-207-2025-8xjhhbpd61dw?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 19822,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/02/28/volkswagen-polo-volkswagen-polo-2-0-tsi-gti-dsg-led-sideassist-dab-iq-drive-weis_9714053751.jpg"
+    },
+    {
+      "id": "pe3j4hr7sv4r",
+      "title": "Volkswagen T-Roc 1.5 150",
+      "price": 20900.0,
+      "resale_estimate": 25100.0,
+      "url": "https://karoto.fr/annonce/volkswagen-t-roc-1-5-150-2021-pe3j4hr7sv4r?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2021,
+      "mileage": 27000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/02/27/volkswagen-t-roc-volkswagen-t-roc-1-5tsi-dsg-cabrio-acc-navi-app-spur-klima-gelb_9714053366.jpg"
+    },
+    {
+      "id": "kqwuwefa3u0x",
+      "title": "Volkswagen T-Roc 1.0 TSI 116 Life",
+      "price": 21290.0,
+      "resale_estimate": 26300.0,
+      "url": "https://karoto.fr/annonce/volkswagen-t-roc-1-0-tsi-116-life-2025-kqwuwefa3u0x?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 6500,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/05/08/volkswagen-t-roc-volkswagen-t-roc-1-0-tsi-life-kamera-app-connect-acc-grau_9714194717.jpg"
+    },
     {
       "id": "m2yry209mp9x",
       "title": "Hyundai Kona 1.6 GDi 141 Business",
@@ -122,66 +182,6 @@
       "year": 2021,
       "mileage": 57255,
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/08/33/peugeot-partner-peugeot-partner-asphalt-hdi-100-cv-blanc_9714341904.jpg"
-    },
-    {
-      "id": "ge2q0p81z174",
-      "title": "Volkswagen Caddy 2.0 TDI 102",
-      "price": 5890.0,
-      "resale_estimate": 9450.0,
-      "url": "https://karoto.fr/annonce/volkswagen-caddy-2-0-tdi-102-2018-ge2q0p81z174?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2018,
-      "mileage": 219951,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/01/32/volkswagen-caddy-maxi-2-0-tdi-maxi-l2-airco-eu6-weis_9714013374.jpg"
-    },
-    {
-      "id": "nb0ttttde84h",
-      "title": "Volkswagen Caddy 2.0",
-      "price": 6199.0,
-      "resale_estimate": 9800.0,
-      "url": "https://karoto.fr/annonce/volkswagen-caddy-2-0-2017-nb0ttttde84h?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2017,
-      "mileage": 194000,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/01/36/volkswagen-caddy-volkswagen-caddy-2-0-1hand-5-sitzer-weis_9714016738.jpg"
-    },
-    {
-      "id": "kqs263pzkc9y",
-      "title": "Volkswagen Golf 1.9 TDI 105",
-      "price": 2400.0,
-      "resale_estimate": 3950.0,
-      "url": "https://karoto.fr/annonce/volkswagen-golf-1-9-tdi-105-2006-kqs263pzkc9y?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2006,
-      "mileage": 94200,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/01/42/volkswagen-golf-golf-5-top-zustand-2-hand-schwarz_9714020973.jpg"
-    },
-    {
-      "id": "b06d8u8b0rdp",
-      "title": "Volkswagen Golf 1.6 TDI 110 Trendline",
-      "price": 5350.0,
-      "resale_estimate": 8800.0,
-      "url": "https://karoto.fr/annonce/volkswagen-golf-1-6-tdi-110-trendline-2014-b06d8u8b0rdp?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2014,
-      "mileage": 154915,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/01/29/volkswagen-golf-sw-7-1-6-tdi-dsg-trendline-variant-klima-sh-alu-grau_9714011348.jpg"
-    },
-    {
-      "id": "w5rwtzrgshzx",
-      "title": "Volkswagen Golf Plus 1.6 102 Tour",
-      "price": 1500.0,
-      "resale_estimate": 2350.0,
-      "url": "https://karoto.fr/annonce/volkswagen-golf-plus-1-6-102-tour-2007-w5rwtzrgshzx?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2007,
-      "mileage": 222500,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/00/47/volkswagen-golf-plus-golf-plus-tour-schwarz_9713990324.jpg"
     }
   ]
 }
