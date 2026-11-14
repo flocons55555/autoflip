@@ -1,25 +1,13 @@
 {
   "live": true,
-  "updated_at": "2026-11-13T22:47:02.858643+00:00",
+  "updated_at": "2026-11-14T02:57:49.550842+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
-    {
-      "id": "mq05w2qxunnb",
-      "title": "Audi A1 25 TFSI 1.0 TFSI 95",
-      "price": 20665.0,
-      "resale_estimate": 25100.0,
-      "url": "https://karoto.fr/annonce/audi-a1-25-tfsi-1-0-tfsi-95-2026-mq05w2qxunnb?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2026,
-      "mileage": 18573,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/01/17/audi-a1-25-tfsi-s-tronic_9714005629.jpg"
-    },
     {
       "id": "q3ue9hhahgt9",
       "title": "BMW X1 18i 1.5 136 Edition Avantage sDrive",
       "price": 20500.0,
-      "resale_estimate": 25750.0,
+      "resale_estimate": 25650.0,
       "url": "https://karoto.fr/annonce/bmw-x1-18i-1-5-136-edition-avantage-sdrive-2021-q3ue9hhahgt9?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -182,6 +170,18 @@
       "year": 2021,
       "mileage": 57255,
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/08/33/peugeot-partner-peugeot-partner-asphalt-hdi-100-cv-blanc_9714341904.jpg"
+    },
+    {
+      "id": "ge2q0p81z174",
+      "title": "Volkswagen Caddy 2.0 TDI 102",
+      "price": 5890.0,
+      "resale_estimate": 9450.0,
+      "url": "https://karoto.fr/annonce/volkswagen-caddy-2-0-tdi-102-2018-ge2q0p81z174?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2018,
+      "mileage": 219951,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/13/01/32/volkswagen-caddy-maxi-2-0-tdi-maxi-l2-airco-eu6-weis_9714013374.jpg"
     }
   ]
 }
