@@ -1,6 +1,6 @@
 {
   "live": true,
-  "updated_at": "2026-11-17T19:42:20.250119+00:00",
+  "updated_at": "2026-11-18T02:16:49.140470+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
     {
@@ -148,6 +148,30 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/17/17/04/bmw-x1-xdrive-25e-schwarz_9717437980.jpg"
     },
     {
+      "id": "pv2jxi16nv6g",
+      "title": "Dacia Bigster",
+      "price": 25189.0,
+      "resale_estimate": 29300.0,
+      "url": "https://karoto.fr/annonce/dacia-bigster-2026-pv2jxi16nv6g?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2026,
+      "mileage": 10,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/17/08/36/dacia-bigster-essential-mild-hybrid-g-140-weis_9717145726.jpg"
+    },
+    {
+      "id": "eqrr2ev1b7yw",
+      "title": "Renault R4 120 Evolution",
+      "price": 26490.0,
+      "resale_estimate": 33100.0,
+      "url": "https://karoto.fr/annonce/renault-r4-120-evolution-2026-eqrr2ev1b7yw?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2026,
+      "mileage": 10,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/17/10/03/renault-r4-evolution-120-ps-40-kwh-winterp-bis-6-nicht-angegeben_9717194035.jpg"
+    },
+    {
       "id": "ktxpcbmpdcqn",
       "title": "Hyundai Bayon 1.0 T-GDi 100 Trend",
       "price": 15950.0,
@@ -158,30 +182,6 @@
       "year": 2025,
       "mileage": 15,
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/17/11/07/hyundai-bayon-bayon-1-0-t-gdi-trend-shz-bose-navi-facel-led-schwarz_9717240531.jpg"
-    },
-    {
-      "id": "70axx21zbdyf",
-      "title": "Opel Corsa 1.2 100",
-      "price": 14980.0,
-      "resale_estimate": 18950.0,
-      "url": "https://karoto.fr/annonce/opel-corsa-1-2-100-2026-70axx21zbdyf?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2026,
-      "mileage": 21,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/17/07/36/opel-corsa-f-yes-1-2-led-pdc-kamera-dab-shz-lhz-digitales-coc_9717113180.jpg"
-    },
-    {
-      "id": "z11y4wese9iz",
-      "title": "Mercedes-Benz Vito 136",
-      "price": 14500.0,
-      "resale_estimate": 23300.0,
-      "url": "https://karoto.fr/annonce/mercedes-benz-vito-136-2019-z11y4wese9iz?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2019,
-      "mileage": 91121,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/17/02/52/mercedes-vito-mercedes-benz-vito-lang_9716935271.jpg"
     }
   ]
 }
