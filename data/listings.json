@@ -1,13 +1,13 @@
 {
   "live": true,
-  "updated_at": "2026-11-20T01:07:50.750482+00:00",
+  "updated_at": "2026-11-20T09:00:23.294456+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
     {
       "id": "cj6r1nm7tez8",
       "title": "Honda CR-V 1.6 120",
       "price": 7000.0,
-      "resale_estimate": 9850.0,
+      "resale_estimate": 9750.0,
       "url": "https://karoto.fr/annonce/honda-cr-v-1-6-120-2014-cj6r1nm7tez8?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -16,34 +16,10 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/10/03/honda-cr-v-1-6-i-dtec-neue-tuv-schwarz_9718702081.jpg"
     },
     {
-      "id": "cbayhkx85rnv",
-      "title": "Renault Kadjar 1.3 TCe 140 Life",
-      "price": 11790.0,
-      "resale_estimate": 14300.0,
-      "url": "https://karoto.fr/annonce/renault-kadjar-1-3-tce-140-life-2019-cbayhkx85rnv?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2019,
-      "mileage": 38700,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/11/03/renault-kadjar-life-navi-tempomat-schwarz_9718733841.jpg"
-    },
-    {
-      "id": "h6dry24yiv3q",
-      "title": "Škoda Fabia 1.0 TSI 95 Ambition",
-      "price": 11380.0,
-      "resale_estimate": 15550.0,
-      "url": "https://karoto.fr/annonce/skoda-fabia-1-0-tsi-95-ambition-2023-h6dry24yiv3q?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2023,
-      "mileage": 30500,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/11/03/skoda-fabia-combi-ambition-1-0-tsi-navigation-led-grau_9718734732.jpg"
-    },
-    {
       "id": "1t53e3miviqd",
       "title": "Kia Ceed Edition 7",
       "price": 11850.0,
-      "resale_estimate": 16950.0,
+      "resale_estimate": 16900.0,
       "url": "https://karoto.fr/annonce/kia-ceed-edition-7-2019-1t53e3miviqd?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -55,7 +31,7 @@
       "id": "8sphhvd2qq6q",
       "title": "Kia Sportage 1.6 GDi 132",
       "price": 10800.0,
-      "resale_estimate": 14000.0,
+      "resale_estimate": 13950.0,
       "url": "https://karoto.fr/annonce/kia-sportage-1-6-gdi-132-2019-8sphhvd2qq6q?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -67,7 +43,7 @@
       "id": "05kzm2fp6s6x",
       "title": "Toyota Aygo 1.0 72 Business Edition",
       "price": 13590.0,
-      "resale_estimate": 16450.0,
+      "resale_estimate": 16350.0,
       "url": "https://karoto.fr/annonce/toyota-aygo-1-0-72-business-edition-2025-05kzm2fp6s6x?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -79,7 +55,7 @@
       "id": "36j7kzrw092h",
       "title": "Kia Sportage 1.6 CRDi 136 Spirit",
       "price": 12990.0,
-      "resale_estimate": 16100.0,
+      "resale_estimate": 16050.0,
       "url": "https://karoto.fr/annonce/kia-sportage-1-6-crdi-136-spirit-2020-36j7kzrw092h?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -88,34 +64,22 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/09/01/kia-sportage-1-6-spirit-2wd-rot_9718643826.jpg"
     },
     {
-      "id": "7hnk7rhsdr65",
-      "title": "Seat Ibiza 1.0 TSI Style",
-      "price": 14380.0,
-      "resale_estimate": 17200.0,
-      "url": "https://karoto.fr/annonce/seat-ibiza-1-0-tsi-style-2024-7hnk7rhsdr65?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "id": "57xjkj3dugu5",
+      "title": "Mercedes-Benz CLA 180 1.3 136",
+      "price": 25100.0,
+      "resale_estimate": 29200.0,
+      "url": "https://karoto.fr/annonce/mercedes-benz-cla-180-1-3-136-2024-57xjkj3dugu5?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
       "year": 2024,
-      "mileage": 6492,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/11/03/seat-ibiza-style-edition-1-0-tsi-android-auto-weis_9718734629.jpg"
-    },
-    {
-      "id": "k4nhrk51418r",
-      "title": "DS DS 7 E Tense 1.6",
-      "price": 14500.0,
-      "resale_estimate": 21450.0,
-      "url": "https://karoto.fr/annonce/ds-ds-7-e-tense-1-6-2021-k4nhrk51418r?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2021,
-      "mileage": 96500,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/11/02/citroen-ds7-schwarz_9718733615.jpg"
+      "mileage": 18000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/12/31/mercedes-cla-shooting-brake-cla-180-dct-shooting-weis_9718786182.jpg"
     },
     {
       "id": "j7qxt1s8rvg2",
       "title": "Seat Alhambra TSI 150 Style",
       "price": 14900.0,
-      "resale_estimate": 18500.0,
+      "resale_estimate": 18250.0,
       "url": "https://karoto.fr/annonce/seat-alhambra-tsi-150-style-2019-j7qxt1s8rvg2?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -124,22 +88,10 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/09/03/seat-alhambra-style-navi-schwarz_9718645907.jpg"
     },
     {
-      "id": "a7kqxwehujbc",
-      "title": "Audi A3 1.4 TFSI 125",
-      "price": 16500.0,
-      "resale_estimate": 24800.0,
-      "url": "https://karoto.fr/annonce/audi-a3-1-4-tfsi-125-2026-a7kqxwehujbc?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2026,
-      "mileage": 98500,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/10/03/audi-a3-8v-1-4-tfsi-16v-100000-km-tuv-neu-grau_9718701567.jpg"
-    },
-    {
       "id": "4z3t1a25qcn1",
       "title": "Opel Mokka 1.2",
       "price": 7800.0,
-      "resale_estimate": 11850.0,
+      "resale_estimate": 11800.0,
       "url": "https://karoto.fr/annonce/opel-mokka-1-2-2019-4z3t1a25qcn1?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
       "original_url": "",
       "source": "Karoto",
@@ -160,18 +112,6 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/15/02/bmw-x5-x5-xdrive-30d-f15-2018_9718863699.jpg"
     },
     {
-      "id": "esqnus0c1nhp",
-      "title": "Peugeot 208 1.5 HDi 100 Active",
-      "price": 7999.0,
-      "resale_estimate": 11700.0,
-      "url": "https://karoto.fr/annonce/peugeot-208-1-5-hdi-100-active-2021-esqnus0c1nhp?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2021,
-      "mileage": 82352,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/07/05/peugeot-208-societe-peugeot-208-generation-ii-societe-1-5-bluehdi-100-xad-active-blanc_9718598258.jpg"
-    },
-    {
       "id": "yd8taqqgc1s3",
       "title": "BMW X1 20d 2.0 184 Business xDrive",
       "price": 7490.0,
@@ -182,6 +122,66 @@
       "year": 2013,
       "mileage": 178000,
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/06/54/bmw-x1-bmw-x1-2-0-d-185-business-xdrive-bva_9718593743.jpg"
+    },
+    {
+      "id": "037qh4d8rwzp",
+      "title": "Mini Countryman Cooper S 1.6 184 Red Hot Chili ALL4",
+      "price": 7990.0,
+      "resale_estimate": 10200.0,
+      "url": "https://karoto.fr/annonce/mini-countryman-cooper-s-1-6-184-red-hot-chili-all4-2011-037qh4d8rwzp?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2011,
+      "mileage": 124000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/06/21/mini-countryman-mini-countryman-1-6-i-184-cv-cooper-s-all4-pack-red-hot-chili-ges-chauffants-bleu_9718578959.jpg"
+    },
+    {
+      "id": "f64xdg0d82w5",
+      "title": "Citroën C5X 1.6 225 Feel Edition Business",
+      "price": 20998.0,
+      "resale_estimate": 24800.0,
+      "url": "https://karoto.fr/annonce/citroen-c5x-1-6-225-feel-edition-business-2023-f64xdg0d82w5?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2023,
+      "mileage": 3295,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/08/33/citroen-c5x-citroen-c5x-hybride-rechargeable-225-s-s-e-eat8-feel-business-bleu_9718634756.jpg"
+    },
+    {
+      "id": "rncks7ijpz7v",
+      "title": "Ford KA 1.2 85 White Edition",
+      "price": 5990.0,
+      "resale_estimate": 8200.0,
+      "url": "https://karoto.fr/annonce/ford-ka-1-2-85-white-edition-2019-rncks7ijpz7v?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2019,
+      "mileage": 105000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/08/33/ford-ka-ford-ka-ka-1-2i-essence-white-edition-garantie-1-an-bleu_9718634994.jpg"
+    },
+    {
+      "id": "2x77csih5kn7",
+      "title": "Citroën C3 1.5 HDi 102 Feel",
+      "price": 7490.0,
+      "resale_estimate": 11350.0,
+      "url": "https://karoto.fr/annonce/citroen-c3-1-5-hdi-102-feel-2022-2x77csih5kn7?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2022,
+      "mileage": 56136,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/08/33/citroen-c3-societe-citroen-c3-2-places-1-5-blue-hdi-100-feel-01-2022-prix-ht-6241-ttc-7490-blanc_9718635034.jpg"
+    },
+    {
+      "id": "39hcdz89ihq5",
+      "title": "Seat Leon 1.5 TSI 115",
+      "price": 19998.0,
+      "resale_estimate": 24400.0,
+      "url": "https://karoto.fr/annonce/seat-leon-1-5-tsi-115-2025-39hcdz89ihq5?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2025,
+      "mileage": 18210,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/08/34/seat-leon-seat-leon-1-5-etsi-hybrid-115-dsg7-business-noir_9718635360.jpg"
     }
   ]
 }
