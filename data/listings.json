@@ -1,6 +1,6 @@
 {
   "live": true,
-  "updated_at": "2026-11-19T18:33:09.139728+00:00",
+  "updated_at": "2026-11-20T01:07:50.750482+00:00",
   "attribution": "Source : Karoto — https://karoto.fr",
   "listings": [
     {
@@ -148,6 +148,18 @@
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/10/03/opel-mokka-moka-x-grau_9718704625.jpg"
     },
     {
+      "id": "g9pqnfkv1kn1",
+      "title": "BMW X5 30d 3.0 258 xDrive",
+      "price": 19500.0,
+      "resale_estimate": 24200.0,
+      "url": "https://karoto.fr/annonce/bmw-x5-30d-3-0-258-xdrive-2018-g9pqnfkv1kn1?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
+      "original_url": "",
+      "source": "Karoto",
+      "year": 2018,
+      "mileage": 245000,
+      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/15/02/bmw-x5-x5-xdrive-30d-f15-2018_9718863699.jpg"
+    },
+    {
       "id": "esqnus0c1nhp",
       "title": "Peugeot 208 1.5 HDi 100 Active",
       "price": 7999.0,
@@ -170,18 +182,6 @@
       "year": 2013,
       "mileage": 178000,
       "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/06/54/bmw-x1-bmw-x1-2-0-d-185-business-xdrive-bva_9718593743.jpg"
-    },
-    {
-      "id": "037qh4d8rwzp",
-      "title": "Mini Countryman Cooper S 1.6 184 Red Hot Chili ALL4",
-      "price": 7990.0,
-      "resale_estimate": 10150.0,
-      "url": "https://karoto.fr/annonce/mini-countryman-cooper-s-1-6-184-red-hot-chili-all4-2011-037qh4d8rwzp?utm_source=mcp&utm_medium=ai&utm_campaign=best_deals",
-      "original_url": "",
-      "source": "Karoto",
-      "year": 2011,
-      "mileage": 124000,
-      "image": "https://img.leparking.fr/640x480/pkg/2026/11/19/06/21/mini-countryman-mini-countryman-1-6-i-184-cv-cooper-s-all4-pack-red-hot-chili-ges-chauffants-bleu_9718578959.jpg"
     }
   ]
 }
